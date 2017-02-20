@@ -192,7 +192,10 @@ The first image might be difficult to classify because ...
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
-The code for making predictions on my final model is located in the tenth cell of the Ipython notebook.
+The code for making predictions on my final model is located in the "Test a Model on New Images" section of the Ipython notebook.
+
+Based on the real images, the model predicted 7 out of 8 signs correctly, achieving 87.50% accuracy for the newly captured images. This is far lower than the test accuracy of 97.93%.
+As I worried in Question 6, the model falsly recognized a "Speed limit (50km/h)" as a different sign. I suspect that it is because of the shadow that covered the right half of the sign.
 
 Here are the results of the prediction:
 
